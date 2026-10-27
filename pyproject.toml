@@ -1,0 +1,10 @@
+[project]
+name = "audita-formularios-html"
+version = "0.1.0"
+description = "Comprobaciones estáticas básicas de accesibilidad de formularios HTML"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+audita-formularios = "audita_formularios.__main__:main"
